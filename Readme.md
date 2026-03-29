@@ -63,7 +63,7 @@ The system is split into two primary layers:
     ```
 
 3.  **Access the Dashboard:**
-    Open your browser and navigate to `http://localhost:5173` (or the port defined by your Vite configuration).
+    Open your browser and navigate to `http://localhost:8080` (or the port defined by your Vite configuration).
 
 ## ⚙️ Managing the Daemon
 
@@ -109,4 +109,4 @@ The backend executes raw shell commands via C++ `<cstdlib>`. For security, the b
 
 ## 📄 License
 
-This project is licensed under the [MIT License]([https://www.google.com/search?q=LICENSE](https://github.com/KingAB2004/WebDesignedCustomOS_Scheduler/blob/main/License)).
+This project is licensed under the [MIT License](https://github.com/KingAB2004/WebDesignedCustomOS_Scheduler/blob/main/License).
