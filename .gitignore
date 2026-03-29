@@ -1,0 +1,14 @@
+# Compiled C++ binaries
+backend/api_server
+backend/worker_daemon
+
+# Live Database
+backend/scheduler.db
+
+# React / Node build files
+frontend/node_modules/
+frontend/dist/
+.env
+
+# System files
+.DS_Store
