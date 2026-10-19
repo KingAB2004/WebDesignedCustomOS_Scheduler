@@ -24,7 +24,7 @@ int main() {
     // Setting up Crow
     crow::App<crow::CORSHandler> app;  // defineing the core web server class of crow which helps in varoiius request like post get and in the  < >  are the middlewares we need
     auto& cors = app.get_middleware<crow::CORSHandler>();
-    cors.global().headers("Content-Type").methods("POST"_method, "GET"_method).origin("http://localhost:8888/"); // configuring the cors     // origin() means accpt content from only my site to prevent hackers to get the data inside and control the os 
+    cors.global().headers("Content-Type").methods("POST"_method, "GET"_method).origin("http://localhost:8888"); // configuring the cors     // origin() means accpt content from only my site to prevent hackers to get the data inside and control the os 
 
 
     // for getting the jobs from the database
